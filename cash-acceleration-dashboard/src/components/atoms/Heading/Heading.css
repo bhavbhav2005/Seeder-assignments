@@ -1,0 +1,12 @@
+.heading h1{
+    color:white;
+    font-size:32px;
+    font-weight:700;
+    line-height:0.5;
+   margin-bottom:12px;
+}
+
+.heading p{
+    color:#8d8fa9;
+    font-size:15px;
+}

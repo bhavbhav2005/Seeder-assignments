@@ -1,0 +1,33 @@
+.custom-button{
+
+    width:100% !important;
+
+    height:58px !important;
+
+    border-radius:14px !important;
+
+    background:linear-gradient(
+        90deg,
+        #8B73FF,
+        #705DF2
+    ) !important;
+
+    text-transform:none !important;
+
+    font-size:18px !important;
+
+    font-weight:600 !important;
+
+    box-shadow:none !important;
+
+}
+
+.custom-button:hover{
+
+    background:linear-gradient(
+        90deg,
+        #8B73FF,
+        #705DF2
+    ) !important;
+
+}

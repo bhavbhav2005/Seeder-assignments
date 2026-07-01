@@ -1,0 +1,21 @@
+.primary-btn{
+    width:100%;
+    height:58px;
+    border:none;
+    border-radius:14px;
+    background:linear-gradient(
+        90deg,
+        #8B73FF,
+        #705DF2
+    );
+    color:#fff;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s ease;
+
+}
+
+.primary-btn:hover{
+    transform:translateY(-1px);
+}

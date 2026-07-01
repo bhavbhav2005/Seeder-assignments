@@ -1,0 +1,10 @@
+.dashboard{
+    min-height:100vh;
+    padding:48px 60px;
+    background:#11131A;
+}
+.dashboard-content{
+    display:flex;
+    gap:28px;
+    align-items:stretch;
+}

@@ -1,0 +1,15 @@
+.stats-section{
+    flex:2;
+    background:linear-gradient(
+        180deg,
+        #171821,
+        #14151D
+    );
+    border-radius:28px;
+    padding:40px;
+    display:flex;
+    justify-content:space-between;
+    min-height:250px;
+    box-shadow:
+    0 15px 40px rgba(0,0,0,.45);
+}

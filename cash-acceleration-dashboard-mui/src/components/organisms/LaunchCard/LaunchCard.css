@@ -1,0 +1,49 @@
+.launch-card{
+
+flex:0.7;
+
+background:linear-gradient(
+
+180deg,
+
+#171821,
+
+#14151D
+
+);
+
+border-radius:28px;
+
+padding:40px 36px;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+box-shadow:
+
+0 15px 40px rgba(0,0,0,.45);
+
+}
+
+.launch-card h4{
+
+font-size:27px;
+
+font-weight:700;
+
+margin-bottom:24px;
+
+}
+
+.launch-text{
+
+color:#9A9CB5;
+
+margin-bottom:40px !important;
+
+line-height:1.8;
+
+}

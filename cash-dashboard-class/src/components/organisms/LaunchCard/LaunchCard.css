@@ -1,0 +1,49 @@
+.launch-card{
+    flex:1;
+
+    background:linear-gradient(
+        180deg,
+        #171821,
+        #14151d
+    );
+
+    border-radius:24px;
+
+    padding:42px 38px;
+
+    min-height:280px;
+
+    border:1px solid rgba(255,255,255,.04);
+
+    box-shadow:
+        0 20px 50px rgba(0,0,0,.45);
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.launch-card h3{
+    color:#ffffff;
+
+    font-size:28px;
+    font-weight:700;
+
+    line-height:1.2;
+
+    margin-bottom:24px;
+
+    text-align:left;
+}
+
+.launch-card p{
+    color:#9b9ca7;
+
+    font-size:16px;
+
+    line-height:1.8;
+
+    text-align:left;
+
+    margin-bottom:40px;
+}

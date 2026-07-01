@@ -1,0 +1,43 @@
+.stat-card{
+
+    flex:1;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+}
+
+.label-row{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:4px;
+
+    margin-top:15px;
+
+}
+
+.label{
+
+    color:#9A9CB5 !important;
+
+    font-size:16px !important;
+
+    font-weight:500 !important;
+
+}
+
+.info-icon{
+
+    font-size:16px !important;
+
+    color:#7C7D89;
+
+    cursor:pointer;
+
+}

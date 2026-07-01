@@ -1,0 +1,14 @@
+.icon-box{
+    width:86px;
+    height:86px;
+    border-radius:24px;
+    background:#25263A;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.icon-box svg{
+    font-size:36px;
+    color:#A5A7B9;
+}

@@ -1,0 +1,37 @@
+.dashboard-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    margin-bottom:48px;
+
+}
+
+.profile{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.avatar{
+
+    width:48px !important;
+
+    height:48px !important;
+
+}
+
+.arrow{
+
+    color:#9A9CB5;
+
+    cursor:pointer;
+
+}

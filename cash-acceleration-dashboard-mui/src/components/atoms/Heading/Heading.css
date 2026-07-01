@@ -1,0 +1,11 @@
+.heading h2{
+    color:#FFFFFF;
+    font-size:45px;
+    font-weight:600;
+    line-height:0.7;
+}
+.subtitle{
+    color:#9A9CB5;
+    margin-top:12px !important;
+    font-size:18px !important;
+}

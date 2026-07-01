@@ -1,0 +1,25 @@
+button{
+    width:100%;
+    height:64px;
+
+    border:none;
+    border-radius:16px;
+
+    background:linear-gradient(
+        90deg,
+        #8b73ff,
+        #705df2
+    );
+
+    color:white;
+    font-size:22px;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s ease;
+}
+
+button:hover{
+    transform:translateY(-1px);
+}

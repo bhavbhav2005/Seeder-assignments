@@ -1,0 +1,225 @@
+.modal-overlay{
+    position:fixed;
+    inset:0;
+
+    background:rgba(0,0,0,.45);
+    backdrop-filter:blur(10px);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    z-index:999;
+}
+
+.cashkick-modal{
+
+    position:relative;
+
+    width:640px;
+
+    background:#24252e;
+
+    border-radius:16px;
+
+    padding:34px 38px;
+
+    box-shadow:
+        0 25px 60px rgba(0,0,0,.45);
+
+}
+
+/* ---------- Close Button ---------- */
+
+.close-btn{
+
+    position:absolute;
+
+    top:24px;
+    right:24px;
+
+    width:28px;
+    height:28px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:transparent;
+    border:none;
+
+    color:#d8d8dc;
+
+    font-size:24px;
+    font-weight:300;
+
+    cursor:pointer;
+
+    line-height:1;
+}
+
+.close-btn:hover{
+
+    color:#ffffff;
+
+}
+
+/* ---------- Header ---------- */
+
+.modal-header{
+
+    text-align:left;
+
+}
+
+.modal-header h2{
+
+    margin:0;
+
+    color:#ffffff;
+
+    font-size:24px;
+
+    font-weight:700;
+
+    line-height:1.2;
+
+}
+
+.modal-header p{
+
+    margin-top:8px;
+
+    color:#9b9ca7;
+
+    font-size:14px;
+
+    line-height:1.5;
+
+    white-space:nowrap;
+
+}
+
+/* ---------- Body ---------- */
+
+.modal-body{
+
+    margin-top:36px;
+
+}
+
+.modal-body label{
+
+    display:block;
+
+    text-align:left;
+
+    color:#d7d7de;
+
+    font-size:15px;
+
+    margin-bottom:8px;
+
+}
+
+.modal-body input{
+
+    width:100%;
+
+    height:50px;
+
+    background:#3f414a;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:10px;
+
+    padding:0 16px;
+
+    color:white;
+
+    font-size:15px;
+
+}
+
+.modal-body input::placeholder{
+
+    color:#9c9ca5;
+
+}
+
+/* ---------- Footer ---------- */
+
+.modal-footer{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    gap:12px;
+
+    margin-top:44px;
+
+}
+
+.cancel-btn{
+
+    width:115px;
+
+    height:52px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#2f3139;
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:500;
+
+    cursor:pointer;
+
+}
+
+.cancel-btn:hover{
+
+    background:#373944;
+
+}
+
+.create-btn{
+
+    width:190px;
+
+    height:52px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:linear-gradient(
+        90deg,
+        #7b68ee,
+        #6c5ce7
+    );
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+}
+
+.create-btn:hover{
+
+    transform:translateY(-1px);
+
+}
